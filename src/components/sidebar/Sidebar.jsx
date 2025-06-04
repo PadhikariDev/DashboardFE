@@ -2,6 +2,7 @@ import React from 'react'
 import AccountToogles from './AccountToogles'
 import { Search } from './Search'
 import { RouteSelect } from './RouteSelect'
+import { Plan } from './Plan'
 function Sidebar() {
     return (
         <div>
@@ -10,9 +11,9 @@ function Sidebar() {
                 <Search />
                 <RouteSelect />
             </div>
-            <div>
-                
-            </div>
+
+            <Plan />
+
         </div>
     )
 }
