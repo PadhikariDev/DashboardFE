@@ -193,8 +193,8 @@ export const DetailsGraph = () => {
                                 }}
                             >
                                 <CartesianGrid stroke="#f5f5f5" />
-                                <XAxis dataKey="name" label={{ value: 'Pages', position: 'insideBottomRight', offset: 0 }} scale="band" />
-                                <YAxis label={{ value: 'Index', angle: -90, position: 'insideLeft' }} />
+                                <XAxis dataKey="name" label={{ value: '', position: 'insideBottomRight', offset: 0 }} scale="band" />
+                                <YAxis label={{ value: '', angle: -90, position: 'insideLeft' }} />
                                 <Tooltip />
                                 <Legend />
                                 <Area type="monotone" dataKey="variance" fill="#8884d8" stroke="#8884d8" />
