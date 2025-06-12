@@ -141,7 +141,7 @@ export const DetailsGraph = () => {
                 <div className='grid grid-cols-3 gap-4 h-64'>
                     <div className='rounded border border-stone-300 p-4 h-64'>
                         <h3 className='text-center text-lg font-semibold '>Product Sales</h3>
-                        <ResponsiveContainer width="100%" height="100%">
+                        <ResponsiveContainer width="100%" height="90%">
                             <BarChart
                                 width={500}
                                 height={300}
