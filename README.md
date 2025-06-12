@@ -24,4 +24,4 @@ npm run dev
 
 📷 Dashboard Preview
 
-![Dashboard Screenshot](./dashboard-preview.png)
+![Dashboard Preview](./dashboard-preview.png)
